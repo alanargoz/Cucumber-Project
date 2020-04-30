@@ -18,7 +18,7 @@ Feature: Go to the Automation Practice site
     Scenario Outline: Filling the Contact us form correctly
         When I click on the "contact us" button
         And I verify page title which should be "<title>"
-        Then I fill "<subject>", "<email>", "<order>" and "message"
+        Then I fill "<subject>", "<email>", "<order>" and "<message>"
         And I click on the "send" button
 
         Examples:
