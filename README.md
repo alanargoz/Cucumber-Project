@@ -50,13 +50,13 @@ $ npm run smoke
 **To run all tests where Contact us form will be filled correctly:**
 
 ```sh
-$ npm run correctFill
+$ npm run correct
 ```
 
 **To run all tests where Contact us form will be filled incorrectly:**
 
 ```sh
-$ npm run incorrectFill
+$ npm run incorrect
 ```
 
 ## Extra :bulb:
